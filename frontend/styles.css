@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.channel {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 45%;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.channel:hover {
+  transform: translateY(-5px);
+}
+
+.channel h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.channel p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.posts-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.post {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.post p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.post small {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-form input,
+.post-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.post-form button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-form button:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
