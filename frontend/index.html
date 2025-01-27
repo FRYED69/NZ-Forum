@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Forum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>NZ Forum</h1>
+    <p>Discuss everything about New Zealand!</p>
+    <nav>
+      <a href="#" id="login-link">Login</a>
+      <a href="#" id="signup-link">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="channel" id="north-island">
+      <h2>North Island</h2>
+      <p>Discuss topics related to the North Island.</p>
+      <div id="north-island-posts" class="posts-container"></div>
+      <form id="north-island-form" class="post-form">
+        <input type="text" id="north-title" placeholder="Title" required>
+        <textarea id="north-content" placeholder="Content" required></textarea>
+        <button type="submit">Post</button>
+      </form>
+    </section>
+
+    <section class="channel" id="south-island">
+      <h2>South Island</h2>
+      <p>Discuss topics related to the South Island.</p>
+      <div id="south-island-posts" class="posts-container"></div>
+      <form id="south-island-form" class="post-form">
+        <input type="text" id="south-title" placeholder="Title" required>
+        <textarea id="south-content" placeholder="Content" required></textarea>
+        <button type="submit">Post</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 NZ Forum. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
